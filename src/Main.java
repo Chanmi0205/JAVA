@@ -13,6 +13,8 @@ public class Main {
 		int a = INT_MAX;
 		int b = 10;
 		int c = 5;
+		double d = 0.5;
+	    int e = (int) (d+0.5);
 		
 		System.out.println(intType);
 		System.out.println(doubleType);
@@ -29,6 +31,9 @@ public class Main {
 	System.out.println("b-c= " + (b-c));
 	System.out.println("b*c= " + (b*c));
 	System.out.println("b/c= " + (b/c));
+	System.out.println("\n");
+	
+    System.out.println(e);
 	}
 	
 
