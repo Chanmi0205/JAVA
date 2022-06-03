@@ -1,6 +1,6 @@
 package day8;
-
-public class Animal {
+       // ì¶”ìƒì ì¸
+public abstract class Animal {
 	
 	Animal() {}
 	
@@ -10,15 +10,13 @@ public class Animal {
 		this.name = name;
 	}
  	
-	void say() {
-		System.out.println("¹º°¡¸¦ ¸»ÇÔ");
-	}
+	abstract void say();
 	
 	void test() {
-		System.out.println("testÀÔ´Ï´Ù.");
+		System.out.println("testì…ë‹ˆë‹¤.");
 	}
 	
 	void attack(Animal a) {
-		System.out.println(this.name + a.name + "À» °ø°İ!");
+		System.out.println(this.name + a.name + "ì„ ê³µê²©!");
 	}
 }
